@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+
+.navigation-logo {
+    width: 200px;
+    object-fit: cover;
+}
+
+.navigation-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-item {
+    margin: 0 50px 0 0;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.navigation-item:last-child {
+    margin: 0;
+}
+
+.navigation-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333333;
+}

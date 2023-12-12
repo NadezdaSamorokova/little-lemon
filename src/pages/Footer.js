@@ -2,33 +2,33 @@ import footerLogo from "../images/footerLogo.png"
 
 function Footer () {
   return (
-    <footer>
-        <img src={footerLogo} alt="Little Lemon Logo"></img>
-        <nav>
-            <h6>Doormat navigation</h6>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Reservation</a></li>
-                <li><a href="#">Order online</a></li>
-                <li><a href="#">Login</a></li>
+    <footer className="footer">
+        <img className="footer-logo" src={footerLogo} alt="Little Lemon Logo"></img>
+        <nav className="footer-navigation">
+            <h6 className="navigation-title">Doormat navigation</h6>
+            <ul className="footer-items">
+                <li className="footer-item"><a className="navigation-link" href="#">Home</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">About</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Menu</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Reservation</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Order online</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Login</a></li>
             </ul>
         </nav>
-        <nav>
-            <h6>Contact</h6>
-            <ul>
-                <li><a href="#">Adress</a></li>
-                <li><a href="#">Phone number</a></li>
-                <li><a href="#">email</a></li>
+        <nav className="footer-navigation">
+            <h6 className="navigation-title">Contact</h6>
+            <ul className="footer-items">
+                <li className="footer-item"><a className="navigation-link" href="#">Adress</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Phone number</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">email</a></li>
             </ul>
         </nav>
-        <nav>
-            <h6>Social media links</h6>
-            <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Telegram</a></li>
+        <nav className="footer-navigation">
+            <h6 className="navigation-title">Social media links</h6>
+            <ul className="footer-items">
+                <li className="footer-item"><a className="navigation-link" href="#">Facebook</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Instagram</a></li>
+                <li className="footer-item"><a className="navigation-link" href="#">Telegram</a></li>
             </ul>
         </nav>
     </footer>
